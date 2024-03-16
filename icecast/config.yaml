@@ -10,7 +10,7 @@ arch:
   - armhf
   - armv7
   - i386
-image: racyon/ha-addon-icecast-{arch}
+image: mohankumargupta/ha-addon-icecast-{arch}
 startup: services
 ingress: true
 ingress_port: 8099
