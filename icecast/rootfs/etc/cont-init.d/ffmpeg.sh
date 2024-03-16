@@ -6,6 +6,8 @@ do
  stream_url=$(bashio::config "streams[${stream}].stream_url")
  mountpoint=$(bashio::config "streams[${stream}].mountpoint")
 
+ echo "URL=$stream_url"
+
  mkdir -p /etc/services.d/ffmpeg_${mountpoint}
  bashio::var.json \
    STREAM_NAME "$stream_name" \
