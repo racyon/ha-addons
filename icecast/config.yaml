@@ -1,6 +1,6 @@
 name: "Icecast"
 description: "An icecast2 server with ffmpeg streams hosted"
-url: "http://github.com/mohankumargupta/ha-addons/icecast"
+url: "http://github.com/racyon/ha-addons/icecast"
 version: "0.1.0"
 slug: "icecast"
 init: false
@@ -10,7 +10,7 @@ arch:
   - armhf
   - armv7
   - i386
-image: mohankumargupta/ha-addon-icecast-{arch}
+image: racyon/ha-addon-icecast-{arch}
 startup: services
 ingress: true
 ingress_port: 8099
